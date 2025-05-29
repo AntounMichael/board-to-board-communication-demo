@@ -1,0 +1,152 @@
+DataMessage sending - Points: 3, Last timestamp: 426861.00, Last value: -831.85
+ControlMessage received - Value: 851.85, Failed: 0, Reset: 0
+Received control value: 851.85
+Sending data (interval: 3)
+DataMessage sending - Points: 3, Last timestamp: 427117.00, Last value: -832.62
+ControlMessage received - Value: 852.62, Failed: 0, Reset: 0
+Received control value: 852.62
+Sending data (interval: 3)
+DataMessage sending - Points: 3, Last timestamp: 427373.00, Last value: -777.77
+ControlMessage received - Value: 797.77, Failed: 0, Reset: 0
+Received control value: 797.77
+Plant state - Position: -670.85, Velocity: 462.44, Input: 797.77
+Sending data (interval: 4)
+DataMessage sending - Points: 4, Last timestamp: 427672.00, Last value: -650.10
+ControlMessage received - Value: 670.10, Failed: 0, Reset: 0
+Received control value: 670.10
+Sending data (interval: 5)
+DataMessage sending - Points: 5, Last timestamp: 428008.00, Last value: -437.61
+ControlMessage received - Value: 457.61, Failed: 0, Reset: 0
+Received control value: 457.61
+Plant state - Position: -206.33, Velocity: 814.61, Input: 457.61
+Sending data (interval: 5)
+DataMessage sending - Points: 5, Last timestamp: 428346.00, Last value: -171.45
+ControlMessage received - Value: 0.00, Failed: 1, Reset: 0
+Received control value: 0.00
+Sending data (interval: 3)
+DataMessage sending - Points: 3, Last timestamp: 428603.00, Last value: 60.83
+ControlMessage received - Value: -41.09, Failed: 0, Reset: 0
+Received control value: -41.09
+Sending data (interval: 4)
+DataMessage sending - Points: 4, Last timestamp: 428900.00, Last value: 327.74
+ControlMessage received - Value: -315.11, Failed: 0, Reset: 0
+Received control value: -315.11
+Plant state - Position: 504.18, Velocity: 800.17, Input: -315.11
+Sending data (interval: 5)
+DataMessage sending - Points: 5, Last timestamp: 429239.00, Last value: 597.90
+ControlMessage received - Value: 0.00, Failed: 1, Reset: 0
+Received control value: 0.00
+Sending data (interval: 3)
+DataMessage sending - Points: 3, Last timestamp: 429495.00, Last value: 771.11
+ControlMessage received - Value: -771.11, Failed: 0, Reset: 0
+Received control value: -771.11
+Plant state - Position: 913.34, Velocity: 407.27, Input: -771.11
+Sending data (interval: 5)
+DataMessage sending - Points: 5, Last timestamp: 429835.00, Last value: 929.35
+ControlMessage received - Value: -929.35, Failed: 0, Reset: 0
+Received control value: -929.35
+Sending data (interval: 4)
+DataMessage sending - Points: 4, Last timestamp: 430146.00, Last value: 978.74
+ControlMessage received - Value: -978.74, Failed: 0, Reset: 0
+Received control value: -978.74
+Sending data (interval: 3)
+DataMessage sending - Points: 3, Last timestamp: 430403.00, Last value: 948.51
+ControlMessage received - Value: -948.51, Failed: 0, Reset: 0
+Received control value: -948.51
+Plant state - Position: 872.95, Velocity: -377.99, Input: -948.51
+Sending data (interval: 3)
+DataMessage sending - Points: 3, Last timestamp: 430662.00, Last value: 855.47
+ControlMessage received - Value: -855.47, Failed: 0, Reset: 0
+Received control value: -855.47
+Sending data (interval: 3)
+DataMessage sending - Points: 3, Last timestamp: 430918.00, Last value: 708.47
+ControlMessage received - Value: -708.47, Failed: 0, Reset: 0
+Received control value: -708.47
+Sending data (interval: 3)
+DataMessage sending - Points: 3, Last timestamp: 431176.00, Last value: 515.06
+ControlMessage received - Value: -515.06, Failed: 0, Reset: 0
+Received control value: -515.06
+Plant state - Position: 289.61, Velocity: -900.05, Input: -515.06
+Sending data (interval: 5)
+DataMessage sending - Points: 5, Last timestamp: 431516.00, Last value: 213.67
+ControlMessage received - Value: -213.67, Failed: 0, Reset: 0
+Received control value: -213.67
+Sending data (interval: 3)
+DataMessage sending - Points: 3, Last timestamp: 431773.00, Last value: -32.55
+ControlMessage received - Value: 32.73, Failed: 0, Reset: 0
+Received control value: 32.73
+Plant state - Position: -347.11, Velocity: -921.92, Input: 32.73
+Sending data (interval: 5)
+DataMessage sending - Points: 5, Last timestamp: 432109.00, Last value: -347.11
+ControlMessage received - Value: 355.79, Failed: 0, Reset: 0
+Received control value: 355.79
+Sending data (interval: 5)
+DataMessage sending - Points: 5, Last timestamp: 432448.00, Last value: -625.37
+ControlMessage received - Value: 645.37, Failed: 0, Reset: 0
+Received control value: 645.37
+Plant state - Position: -830.86, Velocity: -530.33, Input: 645.37
+Sending data (interval: 5)
+DataMessage sending - Points: 5, Last timestamp: 432785.00, Last value: -830.86
+ControlMessage received - Value: 850.86, Failed: 0, Reset: 0
+Received control value: 850.86
+Sending data (interval: 4)
+DataMessage sending - Points: 4, Last timestamp: 433082.00, Last value: -932.16
+ControlMessage received - Value: 952.16, Failed: 0, Reset: 0
+Received control value: 952.16
+Sending data (interval: 5)
+DataMessage sending - Points: 5, Last timestamp: 433419.00, Last value: -947.33
+ControlMessage received - Value: 967.33, Failed: 0, Reset: 0
+Received control value: 967.33
+Plant state - Position: -906.13, Velocity: 232.79, Input: 967.33
+Sending data (interval: 5)
+DataMessage sending - Points: 5, Last timestamp: 433757.00, Last value: -853.40
+ControlMessage received - Value: 873.40, Failed: 0, Reset: 0
+Received control value: 873.40
+Sending data (interval: 5)
+DataMessage sending - Points: 5, Last timestamp: 434094.00, Last value: -661.03
+ControlMessage received - Value: 681.03, Failed: 0, Reset: 0
+Received control value: 681.03
+Plant state - Position: -524.46, Velocity: 771.59, Input: 681.03
+Sending data (interval: 5)
+DataMessage sending - Points: 5, Last timestamp: 434433.00, Last value: -389.58
+ControlMessage received - Value: 409.58, Failed: 0, Reset: 0
+Received control value: 409.58
+Sending data (interval: 4)
+DataMessage sending - Points: 4, Last timestamp: 434731.00, Last value: -110.41
+ControlMessage received - Value: 130.41, Failed: 0, Reset: 0
+Received control value: 130.41
+Plant state - Position: 100.31, Velocity: 972.16, Input: 130.41
+Sending data (interval: 3)
+DataMessage sending - Points: 3, Last timestamp: 434989.00, Last value: 140.23
+ControlMessage received - Value: -122.03, Failed: 0, Reset: 0
+Received control value: -122.03
+Sending data (interval: 4)
+DataMessage sending - Points: 4, Last timestamp: 435287.00, Last value: 416.71
+ControlMessage received - Value: -408.24, Failed: 0, Reset: 0
+Received control value: -408.24
+Plant state - Position: 685.55, Velocity: 743.06, Input: -408.24
+Sending data (interval: 5)
+DataMessage sending - Points: 5, Last timestamp: 435624.00, Last value: 685.55
+ControlMessage received - Value: 0.00, Failed: 1, Reset: 0
+Received control value: 0.00
+Sending data (interval: 4)
+DataMessage sending - Points: 4, Last timestamp: 435922.00, Last value: 876.91
+ControlMessage received - Value: -876.91, Failed: 0, Reset: 0
+Received control value: -876.91
+Sending data (interval: 4)
+DataMessage sending - Points: 4, Last timestamp: 436220.00, Last value: 997.50
+ControlMessage received - Value: -997.50, Failed: 0, Reset: 0
+Received control value: -997.50
+Plant state - Position: 1026.74, Velocity: 101.78, Input: -997.50
+Sending data (interval: 3)
+DataMessage sending - Points: 3, Last timestamp: 436479.00, Last value: 1029.24
+ControlMessage received - Value: 0.00, Failed: 0, Reset: 1
+Received control value: 0.00
+Reset requested by controller!
+Sending data (interval: 5)
+DataMessage sending - Points: 5, Last timestamp: 436816.00, Last value: 0.02
+ControlMessage received - Value: 10.10, Failed: 0, Reset: 0
+Received control value: 10.10
+Plant state - Position: 0.75, Velocity: 3.43, Input: 10.10
+Sending data (interval: 5)
+DataMessage sending - Points: 5, Last timestamp: 437153.00, Last value: 0.91

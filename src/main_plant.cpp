@@ -48,7 +48,7 @@ void loop() {
         Wire.beginTransmission(CONTROLLER_ADDR);
         Wire.write(buffer, length);
         Wire.endTransmission();
-        Serial.println("Sent data message");
+        //Serial.println("Sent data message");
         
         // Clear buffer after sending
         plant.dataBuffer.numPoints = 0;
@@ -57,9 +57,7 @@ void loop() {
         delay(25);
         
         // Request response from controller
-        Serial.println("Requesting response from controller");
         Wire.requestFrom(CONTROLLER_ADDR, CONTROL_MESSAGE_SIZE);
-        Serial.println("Requested response from controller");
         
         // Wait for response with timeout
         unsigned long startTime = millis();
@@ -67,10 +65,8 @@ void loop() {
             delay(10);
             Serial.println("Waiting for response from controller");
         }
-        Serial.println("Checked for response from controller");
-        Serial.print("Available bytes: "); Serial.println(Wire.available());
+        //Serial.print("Available bytes: "); Serial.println(Wire.available());
         if (Wire.available() >= CONTROL_MESSAGE_SIZE) {
-            Serial.println("Received response from controller");
             // Read response into buffer
             uint8_t response[CONTROL_MESSAGE_SIZE];
             for (int i = 0; i < CONTROL_MESSAGE_SIZE; i++) {
