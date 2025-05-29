@@ -5,7 +5,7 @@
 #define SEND_INTERVAL_MIN 3
 #define SEND_INTERVAL_MAX 5
 #define MAX_MESSAGE_SIZE 164  // 1 byte type + 1 byte length + (20 points * 2 floats * 4 bytes) + 2 bytes CRC
-#define RESPONSE_SIZE 32     // Size of control message response
+#define CONTROL_MESSAGE_SIZE 9  // 1 byte type + 1 byte computationFailed + 1 byte resetRequested + 4 bytes controlValue + 2 bytes CRC
 #define REQUEST_TIMEOUT 500  // Timeout in milliseconds for waiting for response
 
 Plant plant;
@@ -58,26 +58,28 @@ void loop() {
         
         // Request response from controller
         Serial.println("Requesting response from controller");
-        uint8_t bytesRead = Wire.requestFrom(CONTROLLER_ADDR, RESPONSE_SIZE);
+        Wire.requestFrom(CONTROLLER_ADDR, CONTROL_MESSAGE_SIZE);
+        Serial.println("Requested response from controller");
         
         // Wait for response with timeout
         unsigned long startTime = millis();
-        while (Wire.available() < bytesRead && (millis() - startTime) < REQUEST_TIMEOUT) {
+        while (Wire.available() < CONTROL_MESSAGE_SIZE && (millis() - startTime) < REQUEST_TIMEOUT) {
             delay(10);
             Serial.println("Waiting for response from controller");
         }
-        
-        if (Wire.available() >= bytesRead) {
+        Serial.println("Checked for response from controller");
+        Serial.print("Available bytes: "); Serial.println(Wire.available());
+        if (Wire.available() >= CONTROL_MESSAGE_SIZE) {
             Serial.println("Received response from controller");
             // Read response into buffer
-            uint8_t response[RESPONSE_SIZE];
-            for (int i = 0; i < bytesRead; i++) {
+            uint8_t response[CONTROL_MESSAGE_SIZE];
+            for (int i = 0; i < CONTROL_MESSAGE_SIZE; i++) {
                 response[i] = Wire.read();
             }
             
             // Process the response
             ControlMessage controlMsg;
-            if (controlMsg.deserialize(response, bytesRead)) {
+            if (controlMsg.deserialize(response, CONTROL_MESSAGE_SIZE)) {
                 plant.handleControlMessage(controlMsg);
                 Serial.print("Received control value: "); Serial.println(controlMsg.controlValue);
                 if (controlMsg.resetRequested) {
